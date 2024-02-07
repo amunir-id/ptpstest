@@ -1,0 +1,80 @@
+[
+	{
+		"model": "daerah_pemilihan.dapildprdkabkota",
+		"pk": 1,
+		"fields": {
+			"no": 1,
+			"provinsi": 13,
+			"kabkota": 3215,
+			"jumlah_kursi": 9,
+			"created_at": "2023-12-29T17:38:10.048Z",
+			"updated_at": "2023-12-29T17:38:10.048Z",
+			"wilayah": [9110010, 9110051]
+		}
+	},
+	{
+		"model": "daerah_pemilihan.dapildprdkabkota",
+		"pk": 2,
+		"fields": {
+			"no": 2,
+			"provinsi": 13,
+			"kabkota": 3215,
+			"jumlah_kursi": 7,
+			"created_at": "2023-12-29T17:38:10.048Z",
+			"updated_at": "2023-12-29T17:38:10.048Z",
+			"wilayah": [9110010, 9110051]
+		}
+	},
+	{
+		"model": "daerah_pemilihan.dapildprdkabkota",
+		"pk": 3,
+		"fields": {
+			"no": 3,
+			"provinsi": 13,
+			"kabkota": 3215,
+			"jumlah_kursi": 7,
+			"created_at": "2023-12-29T17:38:10.048Z",
+			"updated_at": "2023-12-29T17:38:10.048Z",
+			"wilayah": [9110010, 9110051]
+		}
+	},
+	{
+		"model": "daerah_pemilihan.dapildprdkabkota",
+		"pk": 4,
+		"fields": {
+			"no": 4,
+			"provinsi": 13,
+			"kabkota": 3215,
+			"jumlah_kursi": 7,
+			"created_at": "2023-12-29T17:38:10.048Z",
+			"updated_at": "2023-12-29T17:38:10.048Z",
+			"wilayah": [9110010, 9110051]
+		}
+	},
+	{
+		"model": "daerah_pemilihan.dapildprdkabkota",
+		"pk": 5,
+		"fields": {
+			"no": 5,
+			"provinsi": 13,
+			"kabkota": 3215,
+			"jumlah_kursi": 9,
+			"created_at": "2023-12-29T17:38:10.048Z",
+			"updated_at": "2023-12-29T17:38:10.048Z",
+			"wilayah": [9110010, 9110051]
+		}
+	},
+	{
+		"model": "daerah_pemilihan.dapildprdkabkota",
+		"pk": 6,
+		"fields": {
+			"no": 6,
+			"provinsi": 13,
+			"kabkota": 3215,
+			"jumlah_kursi": 11,
+			"created_at": "2023-12-29T17:38:10.048Z",
+			"updated_at": "2023-12-29T17:38:10.048Z",
+			"wilayah": [9110010, 9110051]
+		}
+	}
+]

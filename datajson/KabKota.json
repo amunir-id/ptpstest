@@ -1,0 +1,5942 @@
+[
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1101,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN SIMEULUE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1101,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN SIMEULUE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1102,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH SINGKIL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1102,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH SINGKIL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1103,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1103,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1104,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TENGGARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1104,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TENGGARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1105,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1105,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1106,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1106,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1107,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1107,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1108,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH BESAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1108,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH BESAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1109,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN PIDIE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1109,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN PIDIE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1110,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN BIREUEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1110,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN BIREUEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1111,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1111,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1112,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH BARAT DAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1112,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH BARAT DAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1113,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN GAYO LUES",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1113,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN GAYO LUES",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1114,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TAMIANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1114,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH TAMIANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1115,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN NAGAN RAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1115,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN NAGAN RAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1116,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1116,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN ACEH JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1117,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN BENER MERIAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1117,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN BENER MERIAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1118,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN PIDIE JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1118,
+		"fields": {
+			"provinsi": 1,
+			"name": "KABUPATEN PIDIE JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1171,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA BANDA ACEH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1171,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA BANDA ACEH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1172,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA SABANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1172,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA SABANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1173,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA LANGSA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1173,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA LANGSA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1174,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA LHOKSEUMAWE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1174,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA LHOKSEUMAWE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1175,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA SUBULUSSALAM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1175,
+		"fields": {
+			"provinsi": 1,
+			"name": "KOTA SUBULUSSALAM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1201,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1201,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1202,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN MANDAILING NATAL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1202,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN MANDAILING NATAL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1203,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TAPANULI SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1203,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TAPANULI SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1204,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TAPANULI TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1204,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TAPANULI TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1205,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TAPANULI UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1205,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TAPANULI UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1206,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TOBA SAMOSIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1206,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN TOBA SAMOSIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1207,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LABUHAN BATU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1207,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LABUHAN BATU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1208,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN ASAHAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1208,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN ASAHAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1209,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN SIMALUNGUN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1209,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN SIMALUNGUN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1210,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN DAIRI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1210,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN DAIRI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1211,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN KARO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1211,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN KARO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1212,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN DELI SERDANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1212,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN DELI SERDANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1213,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LANGKAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1213,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LANGKAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1214,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1214,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1215,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN HUMBANG HASUNDUTAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1215,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN HUMBANG HASUNDUTAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1216,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN PAKPAK BHARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1216,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN PAKPAK BHARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1217,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN SAMOSIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1217,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN SAMOSIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1218,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN SERDANG BEDAGAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1218,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN SERDANG BEDAGAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1219,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN BATU BARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1219,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN BATU BARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1220,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN PADANG LAWAS UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1220,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN PADANG LAWAS UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1221,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN PADANG LAWAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1221,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN PADANG LAWAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1222,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LABUHAN BATU SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1222,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LABUHAN BATU SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1223,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LABUHAN BATU UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1223,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN LABUHAN BATU UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1224,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1224,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1225,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1225,
+		"fields": {
+			"provinsi": 2,
+			"name": "KABUPATEN NIAS BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1271,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA SIBOLGA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1271,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA SIBOLGA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1272,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA TANJUNG BALAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1272,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA TANJUNG BALAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1273,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA PEMATANG SIANTAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1273,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA PEMATANG SIANTAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1274,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA TEBING TINGGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1274,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA TEBING TINGGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1275,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA MEDAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1275,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA MEDAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1276,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA BINJAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1276,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA BINJAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1277,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA PADANGSIDIMPUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1277,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA PADANGSIDIMPUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1278,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA GUNUNGSITOLI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1278,
+		"fields": {
+			"provinsi": 2,
+			"name": "KOTA GUNUNGSITOLI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1301,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN KEPULAUAN MENTAWAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1301,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN KEPULAUAN MENTAWAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1302,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PESISIR SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1302,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PESISIR SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1303,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN SOLOK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1303,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN SOLOK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1304,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN SIJUNJUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1304,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN SIJUNJUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1305,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN TANAH DATAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1305,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN TANAH DATAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1306,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PADANG PARIAMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1306,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PADANG PARIAMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1307,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN AGAM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1307,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN AGAM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1308,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN LIMA PULUH KOTA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1308,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN LIMA PULUH KOTA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1309,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PASAMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1309,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PASAMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1310,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN SOLOK SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1310,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN SOLOK SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1311,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN DHARMASRAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1311,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN DHARMASRAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1312,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PASAMAN BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1312,
+		"fields": {
+			"provinsi": 3,
+			"name": "KABUPATEN PASAMAN BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1371,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PADANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1371,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PADANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1372,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA SOLOK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1372,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA SOLOK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1373,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA SAWAH LUNTO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1373,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA SAWAH LUNTO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1374,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PADANG PANJANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1374,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PADANG PANJANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1375,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA BUKITTINGGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1375,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA BUKITTINGGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1376,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PAYAKUMBUH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1376,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PAYAKUMBUH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1377,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PARIAMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1377,
+		"fields": {
+			"provinsi": 3,
+			"name": "KOTA PARIAMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1401,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN KUANTAN SINGINGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1401,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN KUANTAN SINGINGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1402,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN INDRAGIRI HULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1402,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN INDRAGIRI HULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1403,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN INDRAGIRI HILIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1403,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN INDRAGIRI HILIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1404,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN PELALAWAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1404,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN PELALAWAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1405,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN S I A K",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1405,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN S I A K",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1406,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN KAMPAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1407,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN ROKAN HULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1408,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN BENGKALIS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1409,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN ROKAN HILIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1410,
+		"fields": {
+			"provinsi": 4,
+			"name": "KABUPATEN KEPULAUAN MERANTI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1471,
+		"fields": {
+			"provinsi": 4,
+			"name": "KOTA PEKANBARU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1473,
+		"fields": {
+			"provinsi": 4,
+			"name": "KOTA D U M A I",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1501,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN KERINCI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1502,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN MERANGIN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1503,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN SAROLANGUN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1504,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN BATANG HARI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1505,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN MUARO JAMBI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1506,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN TANJUNG JABUNG TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1507,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN TANJUNG JABUNG BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1508,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN TEBO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1509,
+		"fields": {
+			"provinsi": 5,
+			"name": "KABUPATEN BUNGO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1571,
+		"fields": {
+			"provinsi": 5,
+			"name": "KOTA JAMBI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1572,
+		"fields": {
+			"provinsi": 5,
+			"name": "KOTA SUNGAI PENUH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1601,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN OGAN KOMERING ULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1602,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN OGAN KOMERING ILIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1603,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN MUARA ENIM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1604,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN LAHAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1605,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN MUSI RAWAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1606,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN MUSI BANYUASIN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1607,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN BANYU ASIN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1608,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN OGAN KOMERING ULU SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1609,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN OGAN KOMERING ULU TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1610,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN OGAN ILIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1611,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN EMPAT LAWANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1612,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN PENUKAL ABAB LEMATANG ILIR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1613,
+		"fields": {
+			"provinsi": 6,
+			"name": "KABUPATEN MUSI RAWAS UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1671,
+		"fields": {
+			"provinsi": 6,
+			"name": "KOTA PALEMBANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1672,
+		"fields": {
+			"provinsi": 6,
+			"name": "KOTA PRABUMULIH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1673,
+		"fields": {
+			"provinsi": 6,
+			"name": "KOTA PAGAR ALAM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1674,
+		"fields": {
+			"provinsi": 6,
+			"name": "KOTA LUBUKLINGGAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1701,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN BENGKULU SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1702,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN REJANG LEBONG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1703,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN BENGKULU UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1704,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN KAUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1705,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN SELUMA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1706,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN MUKOMUKO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1707,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN LEBONG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1708,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN KEPAHIANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1709,
+		"fields": {
+			"provinsi": 7,
+			"name": "KABUPATEN BENGKULU TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1771,
+		"fields": {
+			"provinsi": 7,
+			"name": "KOTA BENGKULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1801,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN LAMPUNG BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1802,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN TANGGAMUS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1803,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN LAMPUNG SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1804,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN LAMPUNG TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1805,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN LAMPUNG TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1806,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN LAMPUNG UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1807,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN WAY KANAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1808,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN TULANGBAWANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1809,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN PESAWARAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1810,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN PRINGSEWU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1811,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN MESUJI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1812,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN TULANG BAWANG BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1813,
+		"fields": {
+			"provinsi": 8,
+			"name": "KABUPATEN PESISIR BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1871,
+		"fields": {
+			"provinsi": 8,
+			"name": "KOTA BANDAR LAMPUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1872,
+		"fields": {
+			"provinsi": 8,
+			"name": "KOTA METRO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1901,
+		"fields": {
+			"provinsi": 9,
+			"name": "KABUPATEN BANGKA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1902,
+		"fields": {
+			"provinsi": 9,
+			"name": "KABUPATEN BELITUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1903,
+		"fields": {
+			"provinsi": 9,
+			"name": "KABUPATEN BANGKA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1904,
+		"fields": {
+			"provinsi": 9,
+			"name": "KABUPATEN BANGKA TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1905,
+		"fields": {
+			"provinsi": 9,
+			"name": "KABUPATEN BANGKA SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1906,
+		"fields": {
+			"provinsi": 9,
+			"name": "KABUPATEN BELITUNG TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 1971,
+		"fields": {
+			"provinsi": 9,
+			"name": "KOTA PANGKAL PINANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2101,
+		"fields": {
+			"provinsi": 10,
+			"name": "KABUPATEN KARIMUN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2102,
+		"fields": {
+			"provinsi": 10,
+			"name": "KABUPATEN BINTAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2103,
+		"fields": {
+			"provinsi": 10,
+			"name": "KABUPATEN NATUNA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2104,
+		"fields": {
+			"provinsi": 10,
+			"name": "KABUPATEN LINGGA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2105,
+		"fields": {
+			"provinsi": 10,
+			"name": "KABUPATEN KEPULAUAN ANAMBAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2171,
+		"fields": {
+			"provinsi": 10,
+			"name": "KOTA B A T A M",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 2172,
+		"fields": {
+			"provinsi": 10,
+			"name": "KOTA TANJUNG PINANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3101,
+		"fields": {
+			"provinsi": 12,
+			"name": "KABUPATEN KEPULAUAN SERIBU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3171,
+		"fields": {
+			"provinsi": 12,
+			"name": "KOTA JAKARTA SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3172,
+		"fields": {
+			"provinsi": 12,
+			"name": "KOTA JAKARTA TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3173,
+		"fields": {
+			"provinsi": 12,
+			"name": "KOTA JAKARTA PUSAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3174,
+		"fields": {
+			"provinsi": 12,
+			"name": "KOTA JAKARTA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3175,
+		"fields": {
+			"provinsi": 12,
+			"name": "KOTA JAKARTA UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3201,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN BOGOR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3202,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN SUKABUMI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3203,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN CIANJUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3204,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN BANDUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3205,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN GARUT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3206,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN TASIKMALAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3207,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN CIAMIS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3208,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN KUNINGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3209,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN CIREBON",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3210,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN MAJALENGKA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3211,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN SUMEDANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3212,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN INDRAMAYU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3213,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN SUBANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3214,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN PURWAKARTA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3215,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN KARAWANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3216,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN BEKASI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3217,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN BANDUNG BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3218,
+		"fields": {
+			"provinsi": 13,
+			"name": "KABUPATEN PANGANDARAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3271,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA BOGOR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3272,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA SUKABUMI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3273,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA BANDUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3274,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA CIREBON",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3275,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA BEKASI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3276,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA DEPOK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3277,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA CIMAHI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3278,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA TASIKMALAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3279,
+		"fields": {
+			"provinsi": 13,
+			"name": "KOTA BANJAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3301,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN CILACAP",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3302,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN BANYUMAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3303,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN PURBALINGGA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3304,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN BANJARNEGARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3305,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN KEBUMEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3306,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN PURWOREJO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3307,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN WONOSOBO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3308,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN MAGELANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3309,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN BOYOLALI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3310,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN KLATEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3311,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN SUKOHARJO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3312,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN WONOGIRI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3313,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN KARANGANYAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3314,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN SRAGEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3315,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN GROBOGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3316,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN BLORA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3317,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN REMBANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3318,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN PATI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3319,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN KUDUS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3320,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN JEPARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3321,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN DEMAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3322,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN SEMARANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3323,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN TEMANGGUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3324,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN KENDAL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3325,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN BATANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3326,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN PEKALONGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3327,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN PEMALANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3328,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN TEGAL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3329,
+		"fields": {
+			"provinsi": 14,
+			"name": "KABUPATEN BREBES",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3371,
+		"fields": {
+			"provinsi": 14,
+			"name": "KOTA MAGELANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3372,
+		"fields": {
+			"provinsi": 14,
+			"name": "KOTA SURAKARTA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3373,
+		"fields": {
+			"provinsi": 14,
+			"name": "KOTA SALATIGA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3374,
+		"fields": {
+			"provinsi": 14,
+			"name": "KOTA SEMARANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3375,
+		"fields": {
+			"provinsi": 14,
+			"name": "KOTA PEKALONGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3376,
+		"fields": {
+			"provinsi": 14,
+			"name": "KOTA TEGAL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3401,
+		"fields": {
+			"provinsi": 15,
+			"name": "KABUPATEN KULON PROGO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3402,
+		"fields": {
+			"provinsi": 15,
+			"name": "KABUPATEN BANTUL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3403,
+		"fields": {
+			"provinsi": 15,
+			"name": "KABUPATEN GUNUNG KIDUL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3404,
+		"fields": {
+			"provinsi": 15,
+			"name": "KABUPATEN SLEMAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3471,
+		"fields": {
+			"provinsi": 15,
+			"name": "KOTA YOGYAKARTA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3501,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN PACITAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3502,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN PONOROGO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3503,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN TRENGGALEK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3504,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN TULUNGAGUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3505,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN BLITAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3506,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN KEDIRI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3507,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN MALANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3508,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN LUMAJANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3509,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN JEMBER",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3510,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN BANYUWANGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3511,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN BONDOWOSO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3512,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN SITUBONDO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3513,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN PROBOLINGGO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3514,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN PASURUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3515,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN SIDOARJO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3516,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN MOJOKERTO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3517,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN JOMBANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3518,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN NGANJUK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3519,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN MADIUN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3520,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN MAGETAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3521,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN NGAWI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3522,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN BOJONEGORO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3523,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN TUBAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3524,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN LAMONGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3525,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN GRESIK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3526,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN BANGKALAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3527,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN SAMPANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3528,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN PAMEKASAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3529,
+		"fields": {
+			"provinsi": 16,
+			"name": "KABUPATEN SUMENEP",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3571,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA KEDIRI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3572,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA BLITAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3573,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA MALANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3574,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA PROBOLINGGO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3575,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA PASURUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3576,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA MOJOKERTO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3577,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA MADIUN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3578,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA SURABAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3579,
+		"fields": {
+			"provinsi": 16,
+			"name": "KOTA BATU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3601,
+		"fields": {
+			"provinsi": 11,
+			"name": "KABUPATEN PANDEGLANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3602,
+		"fields": {
+			"provinsi": 11,
+			"name": "KABUPATEN LEBAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3603,
+		"fields": {
+			"provinsi": 11,
+			"name": "KABUPATEN TANGERANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3604,
+		"fields": {
+			"provinsi": 11,
+			"name": "KABUPATEN SERANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3671,
+		"fields": {
+			"provinsi": 11,
+			"name": "KOTA TANGERANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3672,
+		"fields": {
+			"provinsi": 11,
+			"name": "KOTA CILEGON",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3673,
+		"fields": {
+			"provinsi": 11,
+			"name": "KOTA SERANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 3674,
+		"fields": {
+			"provinsi": 11,
+			"name": "KOTA TANGERANG SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5101,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN JEMBRANA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5102,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN TABANAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5103,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN BADUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5104,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN GIANYAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5105,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN KLUNGKUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5106,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN BANGLI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5107,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN KARANG ASEM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5108,
+		"fields": {
+			"provinsi": 17,
+			"name": "KABUPATEN BULELENG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5171,
+		"fields": {
+			"provinsi": 17,
+			"name": "KOTA DENPASAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5201,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN LOMBOK BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5202,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN LOMBOK TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5203,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN LOMBOK TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5204,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN SUMBAWA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5205,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN DOMPU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5206,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN BIMA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5207,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN SUMBAWA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5208,
+		"fields": {
+			"provinsi": 18,
+			"name": "KABUPATEN LOMBOK UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5271,
+		"fields": {
+			"provinsi": 18,
+			"name": "KOTA MATARAM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5272,
+		"fields": {
+			"provinsi": 18,
+			"name": "KOTA BIMA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5301,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN SUMBA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5302,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN SUMBA TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5303,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN KUPANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5304,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN TIMOR TENGAH SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5305,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN TIMOR TENGAH UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5306,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN BELU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5307,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN ALOR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5308,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN LEMBATA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5309,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN FLORES TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5310,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN SIKKA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5311,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN ENDE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5312,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN NGADA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5313,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN MANGGARAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5314,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN ROTE NDAO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5315,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN MANGGARAI BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5316,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN SUMBA TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5317,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN SUMBA BARAT DAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5318,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN NAGEKEO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5319,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN MANGGARAI TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5320,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN SABU RAIJUA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5321,
+		"fields": {
+			"provinsi": 19,
+			"name": "KABUPATEN MALAKA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 5371,
+		"fields": {
+			"provinsi": 19,
+			"name": "KOTA KUPANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6101,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN SAMBAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6102,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN BENGKAYANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6103,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN LANDAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6104,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN MEMPAWAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6105,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN SANGGAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6106,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN KETAPANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6107,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN SINTANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6108,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN KAPUAS HULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6109,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN SEKADAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6110,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN MELAWI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6111,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN KAYONG UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6112,
+		"fields": {
+			"provinsi": 20,
+			"name": "KABUPATEN KUBU RAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6171,
+		"fields": {
+			"provinsi": 20,
+			"name": "KOTA PONTIANAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6172,
+		"fields": {
+			"provinsi": 20,
+			"name": "KOTA SINGKAWANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6201,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN KOTAWARINGIN BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6202,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN KOTAWARINGIN TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6203,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN KAPUAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6204,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN BARITO SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6205,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN BARITO UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6206,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN SUKAMARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6207,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN LAMANDAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6208,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN SERUYAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6209,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN KATINGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6210,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN PULANG PISAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6211,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN GUNUNG MAS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6212,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN BARITO TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6213,
+		"fields": {
+			"provinsi": 21,
+			"name": "KABUPATEN MURUNG RAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6271,
+		"fields": {
+			"provinsi": 21,
+			"name": "KOTA PALANGKA RAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6301,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN TANAH LAUT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6302,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN KOTA BARU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6303,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN BANJAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6304,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN BARITO KUALA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6305,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN TAPIN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6306,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN HULU SUNGAI SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6307,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN HULU SUNGAI TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6308,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN HULU SUNGAI UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6309,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN TABALONG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6310,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN TANAH BUMBU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6311,
+		"fields": {
+			"provinsi": 22,
+			"name": "KABUPATEN BALANGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6371,
+		"fields": {
+			"provinsi": 22,
+			"name": "KOTA BANJARMASIN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6372,
+		"fields": {
+			"provinsi": 22,
+			"name": "KOTA BANJAR BARU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6401,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN PASER",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6402,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN KUTAI BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6403,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN KUTAI KARTANEGARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6404,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN KUTAI TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6405,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN BERAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6409,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN PENAJAM PASER UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6411,
+		"fields": {
+			"provinsi": 23,
+			"name": "KABUPATEN MAHAKAM HULU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6471,
+		"fields": {
+			"provinsi": 23,
+			"name": "KOTA BALIKPAPAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6472,
+		"fields": {
+			"provinsi": 23,
+			"name": "KOTA SAMARINDA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6474,
+		"fields": {
+			"provinsi": 23,
+			"name": "KOTA BONTANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6501,
+		"fields": {
+			"provinsi": 24,
+			"name": "KABUPATEN MALINAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6502,
+		"fields": {
+			"provinsi": 24,
+			"name": "KABUPATEN BULUNGAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6503,
+		"fields": {
+			"provinsi": 24,
+			"name": "KABUPATEN TANA TIDUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6504,
+		"fields": {
+			"provinsi": 24,
+			"name": "KABUPATEN NUNUKAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 6571,
+		"fields": {
+			"provinsi": 24,
+			"name": "KOTA TARAKAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7101,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN BOLAANG MONGONDOW",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7102,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN MINAHASA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7103,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN KEPULAUAN SANGIHE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7104,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN KEPULAUAN TALAUD",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7105,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN MINAHASA SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7106,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN MINAHASA UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7107,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN BOLAANG MONGONDOW UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7108,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN SIAU TAGULANDANG BIARO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7109,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN MINAHASA TENGGARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7110,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN BOLAANG MONGONDOW SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7111,
+		"fields": {
+			"provinsi": 25,
+			"name": "KABUPATEN BOLAANG MONGONDOW TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7171,
+		"fields": {
+			"provinsi": 25,
+			"name": "KOTA MANADO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7172,
+		"fields": {
+			"provinsi": 25,
+			"name": "KOTA BITUNG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7173,
+		"fields": {
+			"provinsi": 25,
+			"name": "KOTA TOMOHON",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7174,
+		"fields": {
+			"provinsi": 25,
+			"name": "KOTA KOTAMOBAGU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7201,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN BANGGAI KEPULAUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7202,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN BANGGAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7203,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN MOROWALI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7204,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN POSO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7205,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN DONGGALA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7206,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN TOLI-TOLI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7207,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN BUOL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7208,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN PARIGI MOUTONG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7209,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN TOJO UNA-UNA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7210,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN SIGI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7211,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN BANGGAI LAUT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7212,
+		"fields": {
+			"provinsi": 26,
+			"name": "KABUPATEN MOROWALI UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7271,
+		"fields": {
+			"provinsi": 26,
+			"name": "KOTA PALU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7301,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN KEPULAUAN SELAYAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7302,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN BULUKUMBA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7303,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN BANTAENG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7304,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN JENEPONTO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7305,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN TAKALAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7306,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN GOWA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7307,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN SINJAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7308,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN MAROS",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7309,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN PANGKAJENE DAN KEPULAUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7310,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN BARRU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7311,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN BONE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7312,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN SOPPENG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7313,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN WAJO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7314,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN SIDENRENG RAPPANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7315,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN PINRANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7316,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN ENREKANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7317,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN LUWU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7318,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN TANA TORAJA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7322,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN LUWU UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7325,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN LUWU TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7326,
+		"fields": {
+			"provinsi": 27,
+			"name": "KABUPATEN TORAJA UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7371,
+		"fields": {
+			"provinsi": 27,
+			"name": "KOTA MAKASSAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7372,
+		"fields": {
+			"provinsi": 27,
+			"name": "KOTA PAREPARE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7373,
+		"fields": {
+			"provinsi": 27,
+			"name": "KOTA PALOPO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7401,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN BUTON",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7402,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN MUNA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7403,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KONAWE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7404,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KOLAKA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7405,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KONAWE SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7406,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN BOMBANA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7407,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN WAKATOBI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7408,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KOLAKA UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7409,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN BUTON UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7410,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KONAWE UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7411,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KOLAKA TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7412,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN KONAWE KEPULAUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7413,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN MUNA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7414,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN BUTON TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7415,
+		"fields": {
+			"provinsi": 28,
+			"name": "KABUPATEN BUTON SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7471,
+		"fields": {
+			"provinsi": 28,
+			"name": "KOTA KENDARI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7472,
+		"fields": {
+			"provinsi": 28,
+			"name": "KOTA BAUBAU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7501,
+		"fields": {
+			"provinsi": 29,
+			"name": "KABUPATEN BOALEMO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7502,
+		"fields": {
+			"provinsi": 29,
+			"name": "KABUPATEN GORONTALO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7503,
+		"fields": {
+			"provinsi": 29,
+			"name": "KABUPATEN POHUWATO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7504,
+		"fields": {
+			"provinsi": 29,
+			"name": "KABUPATEN BONE BOLANGO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7505,
+		"fields": {
+			"provinsi": 29,
+			"name": "KABUPATEN GORONTALO UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7571,
+		"fields": {
+			"provinsi": 29,
+			"name": "KOTA GORONTALO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7601,
+		"fields": {
+			"provinsi": 30,
+			"name": "KABUPATEN MAJENE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7602,
+		"fields": {
+			"provinsi": 30,
+			"name": "KABUPATEN POLEWALI MANDAR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7603,
+		"fields": {
+			"provinsi": 30,
+			"name": "KABUPATEN MAMASA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7604,
+		"fields": {
+			"provinsi": 30,
+			"name": "KABUPATEN MAMUJU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7605,
+		"fields": {
+			"provinsi": 30,
+			"name": "KABUPATEN MAMUJU UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 7606,
+		"fields": {
+			"provinsi": 30,
+			"name": "KABUPATEN MAMUJU TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8101,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN MALUKU TENGGARA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8102,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN MALUKU TENGGARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8103,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN MALUKU TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8104,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN BURU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8105,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN KEPULAUAN ARU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8106,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN SERAM BAGIAN BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8107,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN SERAM BAGIAN TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8108,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN MALUKU BARAT DAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8109,
+		"fields": {
+			"provinsi": 31,
+			"name": "KABUPATEN BURU SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8171,
+		"fields": {
+			"provinsi": 31,
+			"name": "KOTA AMBON",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8172,
+		"fields": {
+			"provinsi": 31,
+			"name": "KOTA TUAL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8201,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN HALMAHERA BARAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8202,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN HALMAHERA TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8203,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN KEPULAUAN SULA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8204,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN HALMAHERA SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8205,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN HALMAHERA UTARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8206,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN HALMAHERA TIMUR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8207,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN PULAU MOROTAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8208,
+		"fields": {
+			"provinsi": 32,
+			"name": "KABUPATEN PULAU TALIABU",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8271,
+		"fields": {
+			"provinsi": 32,
+			"name": "KOTA TERNATE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 8272,
+		"fields": {
+			"provinsi": 32,
+			"name": "KOTA TIDORE KEPULAUAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9101,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN FAKFAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9102,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN KAIMANA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9103,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN TELUK WONDAMA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9104,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN TELUK BINTUNI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9105,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN MANOKWARI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9106,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN SORONG SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9107,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN SORONG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9108,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN RAJA AMPAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9109,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN TAMBRAUW",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9110,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN MAYBRAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9111,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN MANOKWARI SELATAN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9112,
+		"fields": {
+			"provinsi": 34,
+			"name": "KABUPATEN PEGUNUNGAN ARFAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9171,
+		"fields": {
+			"provinsi": 34,
+			"name": "KOTA SORONG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9401,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN MERAUKE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9402,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN JAYAWIJAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9403,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN JAYAPURA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9404,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN NABIRE",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9408,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN KEPULAUAN YAPEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9409,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN BIAK NUMFOR",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9410,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN PANIAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9411,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN PUNCAK JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9412,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN MIMIKA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9413,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN BOVEN DIGOEL",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9414,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN MAPPI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9415,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN ASMAT",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9416,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN YAHUKIMO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9417,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN PEGUNUNGAN BINTANG",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9418,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN TOLIKARA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9419,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN SARMI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9420,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN KEEROM",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9426,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN WAROPEN",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9427,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN SUPIORI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9428,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN MAMBERAMO RAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9429,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN NDUGA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9430,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN LANNY JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9431,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN MAMBERAMO TENGAH",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9432,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN YALIMO",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9433,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN PUNCAK",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9434,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN DOGIYAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9435,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN INTAN JAYA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9436,
+		"fields": {
+			"provinsi": 33,
+			"name": "KABUPATEN DEIYAI",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	},
+	{
+		"model": "wilayah.kabkota",
+		"pk": 9471,
+		"fields": {
+			"provinsi": 33,
+			"name": "KOTA JAYAPURA",
+			"created_at": "2023-07-27T17:36:26.845Z",
+			"updated_at": "2023-07-27T17:36:26.845Z"
+		}
+	}
+]

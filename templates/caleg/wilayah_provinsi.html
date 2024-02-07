@@ -1,0 +1,279 @@
+{% extends 'caleg/base.html' %} {% load static %} {% block content %}
+<!--Load Tailwind-->
+{% load tailwind_filters %}
+<div>
+	<div class="flex flex-wrap items-center justify-between gap-4">
+		<h2 class="text-xl">{{title_page}}</h2>
+		<div
+			class="flex w-full flex-col gap-4 sm:w-auto sm:flex-row sm:items-center sm:gap-3">
+			<div class="flex gap-3" x-data="modal">
+				<div>
+					<button
+						type="button"
+						class="btn btn-primary hidden lg:flex"
+						@click="toggle">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-5 w-5 ltr:mr-2 rtl:ml-2">
+							<circle
+								cx="10"
+								cy="6"
+								r="4"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								opacity="0.5"
+								d="M18 17.5C18 19.9853 18 22 10 22C2 22 2 19.9853 2 17.5C2 15.0147 5.58172 13 10 13C14.4183 13 18 15.0147 18 17.5Z"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12"
+								stroke="currentColor"
+								stroke-width="1.5"
+								stroke-linecap="round" />
+						</svg>
+						Tambah {{title_page}}
+					</button>
+					<button
+						type="button"
+						class="btn btn-primary fixed bottom-6 z-50 mb-20 lg:hidden ltr:right-6 rtl:left-6"
+						@click="toggle">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-5 w-5 ltr:mr-2 rtl:ml-2">
+							<circle
+								cx="10"
+								cy="6"
+								r="4"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								opacity="0.5"
+								d="M18 17.5C18 19.9853 18 22 10 22C2 22 2 19.9853 2 17.5C2 15.0147 5.58172 13 10 13C14.4183 13 18 15.0147 18 17.5Z"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12"
+								stroke="currentColor"
+								stroke-width="1.5"
+								stroke-linecap="round" />
+						</svg>
+						Tambah {{title_page}}
+					</button>
+				</div>
+				<!-- modal -->
+				<div
+					class="fixed inset-0 z-[999] hidden overflow-y-auto bg-[black]/60"
+					:class="open && '!block'">
+					<div
+						class="flex min-h-screen items-center justify-center px-4"
+						@click.self="open = false">
+						<div
+							x-show="open"
+							x-transition
+							x-transition.duration.300
+							class="panel my-8 w-[90%] max-w-lg overflow-hidden rounded-lg border-0 p-0 md:w-full">
+							<button
+								type="button"
+								class="absolute top-4 text-white-dark hover:text-dark ltr:right-4 rtl:left-4"
+								@click="toggle">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24px"
+									height="24px"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="h-6 w-6">
+									<line x1="18" y1="6" x2="6" y2="18"></line>
+									<line x1="6" y1="6" x2="18" y2="18"></line>
+								</svg>
+							</button>
+							<h3
+								class="bg-[#fbfbfb] py-3 text-lg font-medium ltr:pl-5 ltr:pr-[50px] rtl:pl-[50px] rtl:pr-5 dark:bg-[#121c2c]">
+								Tambah {{title_page}}
+							</h3>
+							<div class="p-5">
+								<form action="{% url 'caleg:WilayahProvinsi' %}" method="POST">
+									{% csrf_token %}
+									<div class="mb-5">{{ form|crispy }}</div>
+									<div class="mt-8 flex items-center justify-end">
+										<button
+											type="button"
+											class="btn btn-outline-danger"
+											@click="toggle">
+											Cancel
+										</button>
+										<button class="btn btn-primary ltr:ml-4 rtl:mr-4">
+											Tambah
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="relative mt-5 flex h-full gap-5 sm:h-[calc(100vh_-_150px)]">
+		<div class="panel h-full flex-1 overflow-auto p-0">
+			<div class="table-responsive">
+				<table class="table-striped table-hover">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Nama Provinsi</th>
+							<th>Jumlah Kabupaten</th>
+							<th>Jumlah Kecamatan</th>
+							<th>Jumlah Desa</th>
+							<th>Jumlah TPS</th>
+							<th class="!text-center">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for item in provinsi_list %}
+						<tr>
+							<td>
+								<div class="flex w-max items-center">
+									<div class="w-max">{{item.pk}}</div>
+								</div>
+							</td>
+							<td>{{item.name}}</td>
+							<td class="whitespace-nowrap">{{item.jumlah_kabkota}}</td>
+							<td class="whitespace-nowrap">{{item.jumlah_kecamatan}}</td>
+							<td class="whitespace-nowrap">{{item.jumlah_keldesa}}</td>
+							<td class="whitespace-nowrap">{{item.jumlah_tps}}</td>
+							<td>
+								<div class="flex items-center justify-center gap-4">
+									<button type="button" class="btn btn-sm btn-outline-primary">
+										Edit
+									</button>
+									<a
+										href="{% url 'caleg:WilayahProvinsiDelete' item.id %}"
+										onclick="return confirm('Kamu yakin hapus user {{item.fullname}}?')"
+										class="btn btn-sm btn-outline-danger">
+										Delete
+									</a>
+								</div>
+							</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+				<div
+					class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
+					<div class="flex flex-1 justify-between sm:hidden">
+						<a
+							href="#"
+							class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+							>Previous</a
+						>
+						<a
+							href="#"
+							class="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+							>Next</a
+						>
+					</div>
+					<div
+						class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
+						<div>
+							<p class="text-sm text-gray-700">
+								Menampilkan
+								<span class="font-medium">{{ provinsi_list.start_index }}</span>
+								hingga
+								<span class="font-medium">{{ provinsi_list.end_index }}</span>
+								dari
+								<span class="font-medium"
+									>{{ provinsi_list.paginator.count }}</span
+								>
+								hasil
+							</p>
+						</div>
+						<div>
+							<nav
+								class="isolate inline-flex -space-x-px rounded-md shadow-sm"
+								aria-label="Pagination">
+								{% if provinsi_list.has_previous %}
+								<a
+									href="?page={{provinsi_list.previous_page_number}}"
+									class="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+									<span class="sr-only">Sebelumnya</span>
+									<svg
+										class="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
+											clip-rule="evenodd" />
+									</svg>
+								</a>
+								{% endif %} {% for pg in page_range %}
+								<!-- no-->
+								{% if provinsi_list.number == pg %}
+								<a
+									href="?page={{pg}}"
+									aria-current="page"
+									class="relative z-10 inline-flex items-center bg-primary px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+									>{{pg}}</a
+								>
+								{% else %}
+								<a
+									href="?page={{pg}}"
+									class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+									>{{pg}}
+								</a>
+								{% endif %} {% endfor %} {% if provinsi_list.has_next %}
+								<a
+									href="?page={{provinsi_list.next_page_number}}"
+									class="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+									<span class="sr-only">Selanjutnya</span>
+									<svg
+										class="h-5 w-5"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+											clip-rule="evenodd" />
+									</svg>
+								</a>
+								{% endif %}
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- script -->
+<script src="{% static 'vendors/jquery/dist/jquery.min.js' %}"></script>
+<script>
+	document.addEventListener("alpine:init", () => {
+		Alpine.data("modal", (initialOpenState = false) => ({
+			open: initialOpenState,
+
+			toggle() {
+				this.open = !this.open;
+			},
+		}));
+	});
+</script>
+
+{% endblock %}

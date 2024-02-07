@@ -1,0 +1,1596 @@
+{% extends 'caleg/base.html' %} {% load static %} {% block content %}
+<!--Load Tailwind-->
+{% load tailwind_filters %}
+<div>
+	<div class="flex flex-wrap items-center justify-between gap-4">
+		<h2 class="text-xl">{{title_page}}</h2>
+		<div
+			class="flex w-full flex-col gap-4 sm:w-auto sm:flex-row sm:items-center sm:gap-3">
+			<div class="flex gap-3" x-data="modal">
+				<div>
+					<button
+						type="button"
+						class="btn btn-primary hidden lg:flex"
+						@click="toggle">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-5 w-5 ltr:mr-2 rtl:ml-2">
+							<circle
+								cx="10"
+								cy="6"
+								r="4"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								opacity="0.5"
+								d="M18 17.5C18 19.9853 18 22 10 22C2 22 2 19.9853 2 17.5C2 15.0147 5.58172 13 10 13C14.4183 13 18 15.0147 18 17.5Z"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12"
+								stroke="currentColor"
+								stroke-width="1.5"
+								stroke-linecap="round" />
+						</svg>
+						Tambah {{title_page}}
+					</button>
+					<button
+						type="button"
+						class="btn btn-primary fixed bottom-6 z-50 mb-20 lg:hidden ltr:right-6 rtl:left-6"
+						@click="toggle">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-5 w-5 ltr:mr-2 rtl:ml-2">
+							<circle
+								cx="10"
+								cy="6"
+								r="4"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								opacity="0.5"
+								d="M18 17.5C18 19.9853 18 22 10 22C2 22 2 19.9853 2 17.5C2 15.0147 5.58172 13 10 13C14.4183 13 18 15.0147 18 17.5Z"
+								stroke="currentColor"
+								stroke-width="1.5" />
+							<path
+								d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12"
+								stroke="currentColor"
+								stroke-width="1.5"
+								stroke-linecap="round" />
+						</svg>
+						Tambah {{title_page}}
+					</button>
+				</div>
+				<!-- modal -->
+				<div
+					class="fixed inset-0 z-[999] hidden overflow-y-auto bg-[black]/60"
+					:class="open && '!block'">
+					<div
+						class="flex min-h-screen items-center justify-center px-4"
+						@click.self="open = false">
+						<div
+							x-show="open"
+							x-transition
+							x-transition.duration.300
+							class="panel my-8 w-[90%] max-w-lg overflow-hidden rounded-lg border-0 p-0 md:w-full">
+							<button
+								type="button"
+								class="absolute top-4 text-white-dark hover:text-dark ltr:right-4 rtl:left-4"
+								@click="toggle">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24px"
+									height="24px"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="h-6 w-6">
+									<line x1="18" y1="6" x2="6" y2="18"></line>
+									<line x1="6" y1="6" x2="18" y2="18"></line>
+								</svg>
+							</button>
+							<h3
+								class="bg-[#fbfbfb] py-3 text-lg font-medium ltr:pl-5 ltr:pr-[50px] rtl:pl-[50px] rtl:pr-5 dark:bg-[#121c2c]">
+								Tambah {{title_page}}
+							</h3>
+							<div class="p-5">
+								<form action="{% url 'caleg:WilayahKabKota' %}" method="POST">
+									{% csrf_token %}
+									<div class="mb-5">{{ form|crispy }}</div>
+									<div class="mt-8 flex items-center justify-end">
+										<button
+											type="button"
+											class="btn btn-outline-danger"
+											@click="toggle">
+											Cancel
+										</button>
+										<button class="btn btn-primary ltr:ml-4 rtl:mr-4">
+											Tambah
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div x-data="{ tab: 'home' }">
+		<ul
+			class="mb-5 overflow-y-auto whitespace-nowrap border-b border-[#ebedf2] font-semibold sm:flex dark:border-[#191e3a]">
+			<li class="inline-block">
+				<a
+					href="javascript:;"
+					class="flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary"
+					:class="{ '!border-primary text-primary': tab == 'home' }"
+					@click="tab='home'">
+					<svg
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-5 w-5">
+						<path
+							opacity="0.5"
+							d="M2 12.2039C2 9.91549 2 8.77128 2.5192 7.82274C3.0384 6.87421 3.98695 6.28551 5.88403 5.10813L7.88403 3.86687C9.88939 2.62229 10.8921 2 12 2C13.1079 2 14.1106 2.62229 16.116 3.86687L18.116 5.10812C20.0131 6.28551 20.9616 6.87421 21.4808 7.82274C22 8.77128 22 9.91549 22 12.2039V13.725C22 17.6258 22 19.5763 20.8284 20.7881C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.7881C2 19.5763 2 17.6258 2 13.725V12.2039Z"
+							stroke="currentColor"
+							stroke-width="1.5" />
+						<path
+							d="M12 15L12 18"
+							stroke="currentColor"
+							stroke-width="1.5"
+							stroke-linecap="round" />
+					</svg>
+					Pemilih Pengguna Hak Suara
+				</a>
+			</li>
+			<li class="inline-block">
+				<a
+					href="javascript:;"
+					class="flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary"
+					:class="{ '!border-primary text-primary': tab == 'danger-zone' }"
+					@click="tab='danger-zone'">
+					<svg
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-5 w-5">
+						<path
+							d="M16.1007 13.359L16.5562 12.9062C17.1858 12.2801 18.1672 12.1515 18.9728 12.5894L20.8833 13.628C22.1102 14.2949 22.3806 15.9295 21.4217 16.883L20.0011 18.2954C19.6399 18.6546 19.1917 18.9171 18.6763 18.9651M4.00289 5.74561C3.96765 5.12559 4.25823 4.56668 4.69185 4.13552L6.26145 2.57483C7.13596 1.70529 8.61028 1.83992 9.37326 2.85908L10.6342 4.54348C11.2507 5.36691 11.1841 6.49484 10.4775 7.19738L10.1907 7.48257"
+							stroke="currentColor"
+							stroke-width="1.5" />
+						<path
+							opacity="0.5"
+							d="M18.6763 18.9651C17.0469 19.117 13.0622 18.9492 8.8154 14.7266C4.81076 10.7447 4.09308 7.33182 4.00293 5.74561"
+							stroke="currentColor"
+							stroke-width="1.5" />
+						<path
+							opacity="0.5"
+							d="M16.1007 13.3589C16.1007 13.3589 15.0181 14.4353 12.0631 11.4971C9.10807 8.55886 10.1907 7.48242 10.1907 7.48242"
+							stroke="currentColor"
+							stroke-width="1.5"
+							stroke-linecap="round" />
+					</svg>
+					PerolehanSuara
+				</a>
+			</li>
+		</ul>
+		<template x-if="tab === 'home'">
+			<div>
+				<div
+					class="mb-5 space-y-5 rounded-md border border-[#ebedf2] bg-white p-4 dark:border-[#191e3a] dark:bg-[#0e1726]">
+					<h6 class="mb-5 text-lg font-bold uppercase">
+						I. Data Pemilih dan Pengguna Hak Suara
+					</h6>
+					<div class="overflow-x-auto shadow-md sm:rounded-lg">
+						<table class="table-hover table-responsive border border-slate-400">
+							<thead class="uppercase text-gray-700 dark:text-gray-400">
+								<tr class="!bg-transparent dark:!bg-transparent">
+									<th
+										class="border border-black font-bold"
+										style="text-align: center"
+										colspan="2">
+										Uraian
+									</th>
+
+									<th
+										class="border border-black bg-gray-50 px-6 py-3 font-bold dark:bg-gray-800"
+										style="text-align: center">
+										Laki-Laki
+									</th>
+									<th
+										class="border border-black font-bold"
+										style="text-align: center">
+										Perempuan
+									</th>
+									<th
+										class="border border-black font-bold"
+										style="text-align: center">
+										Jumlah (L+P)
+									</th>
+								</tr>
+								<tr class="textcce !bg-transparent dark:!bg-transparent">
+									<th
+										class="w-10 border border-black p-0 text-xs"
+										style="text-align: center"
+										colspan="2">
+										(1)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(2)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(3)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(4)
+									</th>
+								</tr>
+							</thead>
+							<tbody
+								x-data="{ alk1: 0, apm1: 0, blk1: 0, bpm1: 0, blk2: 0, bpm2: 0, blk3: 0, bpm3: 0 }">
+								<tr>
+									<td
+										rowspan="2"
+										class="w-10 border border-black font-bold"
+										style="text-align: center">
+										A
+									</td>
+									<td colspan="4" class="border border-black font-bold">
+										Data Pemilih
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										Jumlah Pemilih dalam Dafftar Pemilih Tetap
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="alk1" />
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="apm1" />
+									</td>
+									<td
+										class="border border-black font-bold"
+										style="text-align: center">
+										<span x-text="parseInt(alk1) + parseInt(apm1)"></span>
+									</td>
+								</tr>
+								<tr>
+									<td
+										rowspan="5"
+										class="w-10 border border-black font-bold"
+										style="text-align: center">
+										B
+									</td>
+									<td colspan="4" class="border border-black font-bold">
+										Pengguna Hak Pilih
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										1. Jumlah pengguna hak pilih dalam Daftar Pemilih Tetap
+										(DPT)
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="blk1" />
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="bpm1" />
+									</td>
+									<td
+										class="border border-black font-bold"
+										style="text-align: center">
+										<span x-text="parseInt(blk1) + parseInt(bpm1)"></span>
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										2. Jumlah pengguna hak pilih dalam Daftar Pemilih Tetap
+										Tambahan (DPTb)
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="blk2" />
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="bpm2" />
+									</td>
+									<td
+										class="border border-black font-bold"
+										style="text-align: center">
+										<span x-text="parseInt(blk2) + parseInt(bpm2)"></span>
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										3. Jumlah pengguna hak pilih dalam Daftar Pemilih Khusus
+										(DPK)
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="blk3" />
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="bpm3" />
+									</td>
+									<td
+										class="border border-black font-bold"
+										style="text-align: center">
+										<span x-text="parseInt(blk3) + parseInt(bpm3)"></span>
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black font-bold">
+										4. Jumlah pengguna Hak Pilih (B.1 + B.2 + B.3 + B.4)
+									</td>
+									<td
+										class="border border-black p-0 font-bold"
+										style="text-align: center">
+										<span
+											x-text="parseInt(blk1) + parseInt(blk2)+ parseInt(blk3)"></span>
+									</td>
+									<td
+										class="border border-black p-0 font-bold"
+										style="text-align: center">
+										<span
+											x-text="parseInt(bpm1) + parseInt(bpm2)+ parseInt(bpm3)"></span>
+									</td>
+									<td
+										class="border border-black p-0 font-bold"
+										style="text-align: center">
+										<span
+											x-text="parseInt(bpm1) + parseInt(bpm2)+ parseInt(bpm3)+parseInt(blk1) + parseInt(blk2)+ parseInt(blk3)"></span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div
+					class="mb-5 space-y-5 rounded-md border border-[#ebedf2] bg-white p-4 dark:border-[#191e3a] dark:bg-[#0e1726]">
+					<h6 class="mb-5 text-lg font-bold uppercase">
+						II. Data Penggunaan Surat Suara
+					</h6>
+					<div class="overflow-x-auto shadow-md sm:rounded-lg">
+						<table class="table-hover table-responsive border border-slate-400">
+							<thead class="uppercase text-gray-700 dark:text-gray-400">
+								<tr class="!bg-transparent dark:!bg-transparent">
+									<th
+										class="border border-black font-bold"
+										style="text-align: center">
+										Uraian
+									</th>
+
+									<th
+										class="border border-black font-bold"
+										style="text-align: center">
+										Jumlah (L+P)
+									</th>
+								</tr>
+								<tr class="textcce !bg-transparent dark:!bg-transparent">
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(1)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(2)
+									</th>
+								</tr>
+							</thead>
+							<tbody x-data="{ num1: 0, num2: 0, num3: 0, num4: 0 }">
+								<tr>
+									<td class="border border-black">
+										1. Jumlah surat suara yang diterima, termasuk surat suara
+										cadangan 2 dari DPT
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="text"
+											placeholder="0"
+											x-model="num1"
+											class="input-perolehan form-input w-full !bg-transparent text-success dark:!bg-transparent" />
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										2. Jumlah surat suara yang digunakan
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="text"
+											placeholder="0"
+											x-model="num2"
+											class="input-perolehan form-input w-full !bg-transparent text-success dark:!bg-transparent" />
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										3. Jumlah surat suara yang dikembalikan oleh pemilih (karena
+										rusak atau keliru coblos)
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="text"
+											placeholder="0"
+											x-model="num3"
+											class="input-perolehan form-input w-full !bg-transparent text-success dark:!bg-transparent" />
+									</td>
+								</tr>
+								<tr>
+									<td class="border border-black">
+										4. Jumlah surat suara yang tidak digunakan/tidak terpakai,
+										termasuk sisa surat suara cadangan
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="text"
+											placeholder="0"
+											x-model="num4"
+											class="input-perolehan form-input w-full !bg-transparent text-success dark:!bg-transparent" />
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div
+					class="mb-5 space-y-5 rounded-md border border-[#ebedf2] bg-white p-4 dark:border-[#191e3a] dark:bg-[#0e1726]">
+					<h6 class="mb-5 text-lg font-bold uppercase">
+						III. Data Pemilih Disabilitas
+					</h6>
+					<div class="overflow-x-auto shadow-md sm:rounded-lg">
+						<table class="table-hover table-responsive border border-slate-400">
+							<thead class="uppercase text-gray-700 dark:text-gray-400">
+								<tr class="!bg-transparent dark:!bg-transparent">
+									<th
+										class="border border-black font-bold"
+										style="text-align: center"
+										colspan="2">
+										Uraian
+									</th>
+
+									<th
+										class="border border-black bg-gray-50 px-6 py-3 font-bold dark:bg-gray-800"
+										style="text-align: center">
+										Laki-Laki
+									</th>
+									<th
+										class="border border-black font-bold"
+										style="text-align: center">
+										Perempuan
+									</th>
+									<th
+										class="border border-black font-bold"
+										style="text-align: center">
+										Jumlah (L+P)
+									</th>
+								</tr>
+								<tr class="textcce !bg-transparent dark:!bg-transparent">
+									<th
+										class="w-10 border border-black p-0 text-xs"
+										style="text-align: center"
+										colspan="2">
+										(1)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(2)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(3)
+									</th>
+									<th
+										class="border border-black p-0 text-xs"
+										style="text-align: center">
+										(4)
+									</th>
+								</tr>
+							</thead>
+							<tbody x-data="{ lk:0, pm:0 }">
+								<tr>
+									<td class="border border-black" colspan="2">
+										Jumlah seluruh Pemilih disabilitas yang menggunakan hak
+										pilih
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="lk" />
+									</td>
+									<td
+										class="border border-black bg-info-light p-0"
+										style="text-align: center">
+										<input
+											type="number"
+											placeholder="0"
+											class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+											x-model="pm" />
+									</td>
+									<td
+										class="border border-black font-bold"
+										style="text-align: center">
+										<span x-text="parseInt(lk) + parseInt(pm)"></span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="flex justify-between">
+					<button
+						type="button"
+						class="btn btn-primary"
+						:disabled="activeTab === 1"
+						@click="activeTab--">
+						Kembali
+					</button>
+					<button
+						type="button"
+						class="btn btn-primary"
+						:disabled="activeTab === 3"
+						@click="activeTab++">
+						Selanjutnya
+					</button>
+				</div>
+			</div>
+		</template>
+
+		<template x-if="tab === 'danger-zone'">
+			<div class="switch">
+				<div class="grid">
+					<div class="panel space-y-5">
+						<h5 class="mb-4 text-lg font-semibold uppercase">
+							Data Perolehan Suara Partai Politik dan Suara Calon
+						</h5>
+						<div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+							<div class="panel space-y-5">
+								<div class="overflow-x-auto shadow-md sm:rounded-lg">
+									<table
+										class="table-hover table-responsive border border-slate-400">
+										<thead class="uppercase text-gray-700 dark:text-gray-400">
+											<tr class="!bg-transparent dark:!bg-transparent">
+												<th
+													class="border border-black font-bold"
+													style="text-align: center"
+													colspan="2">
+													Nomor, Nama, Partai dan Calon
+												</th>
+												<th
+													class="border border-black bg-gray-50 px-6 py-3 font-bold dark:bg-gray-800"
+													style="text-align: center">
+													Suara Sah
+												</th>
+											</tr>
+											<tr class="textcce !bg-transparent dark:!bg-transparent">
+												<th
+													class="w-10 border border-black p-0 text-xs"
+													style="text-align: center"
+													colspan="2">
+													(1)
+												</th>
+												<th
+													class="border border-black p-0 text-xs"
+													style="text-align: center">
+													(2)
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													A.1
+												</td>
+												<td class="border border-black bg-dark p-0 text-white">
+													1. Partai Kebangkitan Bangsa
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center"
+													rowspan="11">
+													A.2
+												</td>
+												<td class="border border-black p-0 text-xs">
+													1. APRIYONA, S.T.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													2. SEIA PIANTARA, S.E., M.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													3. Dra. CHOIRUL ANISAH
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													4. ATIKAH SRI RAHAYU
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													5. CAHYA WIGUNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													6. HARRY PRIYATNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													7. AMRINI HANDAYANI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													8. LATIF, S.Pd.I.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													9. SELLI NOVALIA PUTRI, S.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													10. ASEP DASUKI, S.E.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													11. LIDIA BAYUWATI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													B
+												</td>
+												<td class="border border-black p-0">
+													Jumlah Suara Sah Partai Politik dan Calon (A1+A.2)
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="panel space-y-5">
+								<div class="overflow-x-auto shadow-md sm:rounded-lg">
+									<table
+										class="table-hover table-responsive border border-slate-400">
+										<thead class="uppercase text-gray-700 dark:text-gray-400">
+											<tr class="!bg-transparent dark:!bg-transparent">
+												<th
+													class="border border-black font-bold"
+													style="text-align: center"
+													colspan="2">
+													Nomor, Nama, Partai dan Calon
+												</th>
+												<th
+													class="border border-black bg-gray-50 px-6 py-3 font-bold dark:bg-gray-800"
+													style="text-align: center">
+													Suara Sah
+												</th>
+											</tr>
+											<tr class="textcce !bg-transparent dark:!bg-transparent">
+												<th
+													class="w-10 border border-black p-0 text-xs"
+													style="text-align: center"
+													colspan="2">
+													(1)
+												</th>
+												<th
+													class="border border-black p-0 text-xs"
+													style="text-align: center">
+													(2)
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													A.1
+												</td>
+												<td class="border border-black bg-dark p-0 text-white">
+													1. Gerindra
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center"
+													rowspan="11">
+													A.2
+												</td>
+												<td class="border border-black p-0 text-xs">
+													1. APRIYONA, S.T.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													2. SEIA PIANTARA, S.E., M.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													3. Dra. CHOIRUL ANISAH
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													4. ATIKAH SRI RAHAYU
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													5. CAHYA WIGUNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													6. HARRY PRIYATNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													7. AMRINI HANDAYANI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													8. LATIF, S.Pd.I.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													9. SELLI NOVALIA PUTRI, S.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													10. ASEP DASUKI, S.E.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													11. LIDIA BAYUWATI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="0"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													B
+												</td>
+												<td class="border border-black p-0">
+													Jumlah Suara Sah Partai Politik dan Calon (A1+A.2)
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+							<div class="panel space-y-5">
+								<div class="overflow-x-auto shadow-md sm:rounded-lg">
+									<table
+										class="table-hover table-responsive border border-slate-400">
+										<thead class="uppercase text-gray-700 dark:text-gray-400">
+											<tr class="!bg-transparent dark:!bg-transparent">
+												<th
+													class="border border-black font-bold"
+													style="text-align: center"
+													colspan="2">
+													Nomor, Nama, Partai dan Calon
+												</th>
+												<th
+													class="border border-black bg-gray-50 px-6 py-3 font-bold dark:bg-gray-800"
+													style="text-align: center">
+													Suara Sah
+												</th>
+											</tr>
+											<tr class="textcce !bg-transparent dark:!bg-transparent">
+												<th
+													class="w-10 border border-black p-0 text-xs"
+													style="text-align: center"
+													colspan="2">
+													(1)
+												</th>
+												<th
+													class="border border-black p-0 text-xs"
+													style="text-align: center">
+													(2)
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													A.1
+												</td>
+												<td class="border border-black bg-dark p-0 text-white">
+													1. Partai Kebangkitan Bangsa
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center"
+													rowspan="11">
+													A.2
+												</td>
+												<td class="border border-black p-0 text-xs">
+													1. APRIYONA, S.T.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													2. SEIA PIANTARA, S.E., M.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													3. Dra. CHOIRUL ANISAH
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													4. ATIKAH SRI RAHAYU
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													5. CAHYA WIGUNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													6. HARRY PRIYATNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													7. AMRINI HANDAYANI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													8. LATIF, S.Pd.I.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													9. SELLI NOVALIA PUTRI, S.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													10. ASEP DASUKI, S.E.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													11. LIDIA BAYUWATI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													B
+												</td>
+												<td class="border border-black p-0">
+													Jumlah Suara Sah Partai Politik dan Calon (A1+A.2)
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="panel space-y-5">
+								<div class="overflow-x-auto shadow-md sm:rounded-lg">
+									<table
+										class="table-hover table-responsive border border-slate-400">
+										<thead class="uppercase text-gray-700 dark:text-gray-400">
+											<tr class="!bg-transparent dark:!bg-transparent">
+												<th
+													class="border border-black font-bold"
+													style="text-align: center"
+													colspan="2">
+													Nomor, Nama, Partai dan Calon
+												</th>
+												<th
+													class="border border-black bg-gray-50 px-6 py-3 font-bold dark:bg-gray-800"
+													style="text-align: center">
+													Suara Sah
+												</th>
+											</tr>
+											<tr class="textcce !bg-transparent dark:!bg-transparent">
+												<th
+													class="w-10 border border-black p-0 text-xs"
+													style="text-align: center"
+													colspan="2">
+													(1)
+												</th>
+												<th
+													class="border border-black p-0 text-xs"
+													style="text-align: center">
+													(2)
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													A.1
+												</td>
+												<td class="border border-black bg-dark p-0 text-white">
+													1. Gerindra
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center"
+													rowspan="11">
+													A.2
+												</td>
+												<td class="border border-black p-0 text-xs">
+													1. APRIYONA, S.T.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													2. SEIA PIANTARA, S.E., M.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													3. Dra. CHOIRUL ANISAH
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													4. ATIKAH SRI RAHAYU
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													5. CAHYA WIGUNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													6. HARRY PRIYATNA
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													7. AMRINI HANDAYANI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													8. LATIF, S.Pd.I.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													9. SELLI NOVALIA PUTRI, S.M.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													10. ASEP DASUKI, S.E.
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td class="border border-black p-0 text-xs">
+													11. LIDIA BAYUWATI
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+											<tr>
+												<td
+													class="border border-black p-0 font-bold"
+													style="text-align: center">
+													B
+												</td>
+												<td class="border border-black p-0">
+													Jumlah Suara Sah Partai Politik dan Calon (A1+A.2)
+												</td>
+												<td
+													class="border border-black bg-info-light p-0"
+													style="text-align: center">
+													<input
+														type="number"
+														placeholder="Isi disini"
+														class="input-perolehan form-input w-full !bg-transparent font-bold text-success dark:!bg-transparent"
+														x-model="sah" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</template>
+	</div>
+</div>
+<!-- script -->
+<script src="{% static 'vendors/jquery/dist/jquery.min.js' %}"></script>
+<script>
+	document.addEventListener("alpine:init", () => {
+		Alpine.data("modal", (initialOpenState = false) => ({
+			open: initialOpenState,
+
+			toggle() {
+				this.open = !this.open;
+			},
+		}));
+	});
+</script>
+
+{% endblock %}
